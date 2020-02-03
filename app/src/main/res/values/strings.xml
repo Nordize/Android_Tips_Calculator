@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Customized Tips Calculation</string>
+    <string name="welcome">Welcome to customized tips calculator!</string>
+    <string name="enter_bill">Please enter your total bill ($) : </string>
+    <string name="totalbill">Total Bill</string>
+    <string name="Tips_after_calculated">Tips after calculated</string>
+    <string name="calculate_15">Calculate for 15% tip :</string>
+    <string name="calculate_18">Calculate for 18% tip :</string>
+    <string name="calculate_20">Calculate for 20% tip :</string>
+    <string name="calculate_22">Calculate for 22% tip :</string>
+    <string name="result_15">result for 15%</string>
+    <string name="result_18">result for 18%</string>
+    <string name="result_20">result for 20%</string>
+    <string name="result_22">result for 22%</string>
+    <string name="Or_type_your_percentage_for_calculate_tip">Or type your percentage for calculate tip (%)</string>
+    <string name="type_your_percentage">type your percentage</string>
+    <string name="result_for_customized_percentage">result for customized %</string>
+    <string name="calculate">Calculate</string>
+
+</resources>

@@ -1,0 +1,231 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:stretchColumns="1">
+
+    <TableRow android:padding="5dip">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_span="2"
+            android:gravity="center_horizontal"
+            android:text="@string/welcome"
+            android:textColor="#FF5722"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+    </TableRow>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#c0c0c0"/>
+    <TableRow>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/enter_bill"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/total_bill"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:hint="@string/totalbill"
+            android:inputType="numberDecimal"
+            android:padding="5dp"
+            android:textColor="#000" />
+
+
+
+    </TableRow>
+
+    <!-- Draw a single vertical Line for seperate panel -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="20dp"
+        android:background="#c0c0c0"/>
+    <TableRow>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_span="2"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/Tips_after_calculated"
+            android:textColor="#FF9800"
+            android:textSize="20sp" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/calculate_15"
+            android:gravity="center_horizontal|center_vertical"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/result_15"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/result_15"
+            android:textColor="#FF5722"
+            android:textSize="16sp" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/calculate_18"
+            android:gravity="center_horizontal|center_vertical"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/result_18"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/result_18"
+            android:textColor="#FF5722"
+            android:textSize="16sp" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/calculate_20"
+            android:gravity="center_horizontal|center_vertical"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/result_20"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/result_20"
+            android:textColor="#FF5722"
+            android:textSize="16sp" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/calculate_22"
+            android:gravity="center_horizontal|center_vertical"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/result_22"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/result_22"
+            android:textColor="#FF5722"
+            android:textSize="16sp" />
+    </TableRow>
+
+    <!-- Draw a single vertical Line for seperate panel -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="20dp"
+        android:background="#c0c0c0"/>
+
+    <TableRow>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_span="2"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/Or_type_your_percentage_for_calculate_tip"
+            android:textColor="#FF9800"
+            android:textSize="18sp" />
+    </TableRow>
+
+    <TableRow>
+
+        <EditText
+            android:id="@+id/customized_tip"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:hint="@string/type_your_percentage"
+            android:inputType="numberDecimal"
+            android:padding="5dp"
+            android:textColor="#000"
+            android:text="0"/>
+
+        <TextView
+            android:id="@+id/result_custom_tip"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/result_for_customized_percentage"
+            android:textColor="#FF5722"
+            android:textSize="16sp" />
+    </TableRow>
+
+    <!-- Draw a single vertical Line for seperate panel -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="10dp"
+        android:background="#c0c0c0"/>
+
+    <TableRow android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/calculateBtn"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_span="2"
+            android:background="#FF5722"
+            android:text="@string/calculate"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </TableRow>
+</TableLayout>
