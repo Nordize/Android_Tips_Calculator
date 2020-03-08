@@ -68,16 +68,16 @@ public class MainActivity extends AppCompatActivity {
 
         double fiveteen_perct = value*0.15; //cal 15%
         //show_15.setText(String.valueOf(fiveteen_perct));
-        show_15.setText(String.format("%.2f",fiveteen_perct));
+        show_15.setText(String.format("%.2f = $%.2f ",fiveteen_perct,fiveteen_perct+value));
 
         double eightteen_perct = value*0.18; //cal 18%
-        show_18.setText(String.format("%.2f",eightteen_perct));
+        show_18.setText(String.format("%.2f = $%.2f",eightteen_perct,eightteen_perct+value));
 
         double twenty_perct = value*0.20; //cal 20%
-        show_20.setText(String.format("%.2f",twenty_perct));
+        show_20.setText(String.format("%.2f = $%.2f",twenty_perct,twenty_perct+value));
 
         double twentytwo_perct = value*0.22; //cal 22%
-        show_22.setText(String.format("%.2f",twentytwo_perct));
+        show_22.setText(String.format("%.2f = $%.2f",twentytwo_perct,twentytwo_perct+value));
 
     }
 
