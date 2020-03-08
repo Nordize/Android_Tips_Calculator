@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
 
         double fiveteen_perct = value*0.15; //cal 15%
         //show_15.setText(String.valueOf(fiveteen_perct));
-        show_15.setText(String.format("%.2f = $%.2f",fiveteen_perct,fiveteen_perct+value));
+        show_15.setText(String.format("%.2f = $%.2f ",fiveteen_perct,fiveteen_perct+value));
 
         double eightteen_perct = value*0.18; //cal 18%
         show_18.setText(String.format("%.2f = $%.2f",eightteen_perct,eightteen_perct+value));
